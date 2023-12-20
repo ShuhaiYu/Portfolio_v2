@@ -1,6 +1,6 @@
 // About.tsx
 import React from 'react';
-import styles from './About.module.css'; // We'll create this CSS module next
+import styles from './About.module.css';
 
 const About: React.FC = () => {
     return (
@@ -8,7 +8,7 @@ const About: React.FC = () => {
             <h1>About Me</h1>
             <div className={styles.content}>
                 <div className={styles.textSection}>
-                    <p>Hello! I'm [Your Name], a passionate web developer and designer...</p>
+                    <p>Hello! I'm Shuhai Yu, a passionate web developer and designer...</p>
                     {/* Add more personal details, experiences, and skills here */}
                 </div>
                 <div className={styles.imageSection}>
