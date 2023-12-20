@@ -1,0 +1,35 @@
+/* NavBar.module.css */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navBrand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navItems {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin-left: 20px;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: #ddd;
+}
