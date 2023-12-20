@@ -1,0 +1,18 @@
+/* Projects.module.css */
+.projectsContainer {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}

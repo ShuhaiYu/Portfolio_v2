@@ -1,10 +1,12 @@
 // Home.tsx
 import React from 'react';
+import Header from './Header.tsx';
 
 const Home: React.FC = () => {
     return (
         <div>
-            <h1>Welcome to My Portfolio</h1>
+            <Header title="My Portfolio" subtitle="Welcome to my portfolio!" />
+            
             {/* Additional content */}
         </div>
     );
